@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/Tarrasch/zsh-bd.png)](https://travis-ci.org/Tarrasch/zsh-bd)
 
+This fork is basically identical to [Tarrasch/zsh-bd](https://github.com/Tarrasch/zsh-bd), except that it does `cd ..` if no arguments are provided instead of printing its usage information.
+
 # zsh-bd
 
 Quickly go back to a specific parent directory instead of typing `cd ../../..` redundantly.
