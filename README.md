@@ -19,7 +19,7 @@ of the zsh shell.
 All you need to do is to source `bd.zsh`. Here's the manual installation
 
     mkdir -p $HOME/.zsh/plugins/bd
-    curl https://raw.githubusercontent.com/Tarrasch/zsh-bd/master/bd.zsh > $HOME/.zsh/plugins/bd/bd.zsh
+    curl https://raw.githubusercontent.com/melkster/zsh-bd/master/bd.zsh > $HOME/.zsh/plugins/bd/bd.zsh
     print -- "\n# zsh-bd\n. \$HOME/.zsh/plugins/bd/bd.zsh" >> $HOME/.zshrc
 
 Restart your shell (or run `zsh`)
@@ -28,7 +28,7 @@ Restart your shell (or run `zsh`)
 
 If you prefer antigen over manual installation
 
-    antigen-bundle Tarrasch/zsh-bd
+    antigen-bundle melkster/zsh-bd
 
 ## Usage
 
